@@ -59,7 +59,7 @@ ROOT_DIR = base directory of the project (not src/)
 
 Prepare the data and the environment:
 ```
-python src/data/data_prep.py
+python data_prep.py
 ```
 The function creates the network and constructs the database of the agents behaviour for learning.
 The results are then saved in the `data/env_data` folder.
@@ -79,7 +79,14 @@ python src/main.py --train True
                     --model_path src/saved_models/voltage_control
 ```
 
-If you want to only run the already learned model, set the `--train` parameter to `False` and set the `--model_path` parameter to the path of the saved model. A prerequesite for this is that the `--model_path` and `--load_test_file` parameters are set to the values that the model objects and test timeseries data.
+If you want to only run the already learned model, set the `--train` parameter to `False` and set the `--model_path` parameter to the path of the saved model. A prerequisite for this is that the `--model_path` and `--load_test_file` parameters are set to the values that the model objects and test time series data.
+
+## Running the concepts:
+
+Run 
+```
+python src/explaining_the_actions/scenario_explainer.py
+```
 
 ## License
 [MIT]
@@ -103,14 +110,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-## Authors
-- [Klemen Knez]()
-- [Blaž Dobravec]()
-- [Jure Žabkar]()
-- [Boštjan Blažič]()
-- [Vitomir Štruc]()
 
 
 
