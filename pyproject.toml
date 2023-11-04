@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "arrs drift"
+version = "0.1.0"
+description = ""
+authors = ["KlemenK <kk3026@student.uni-lj.si>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+PyYAML = "^6.0"
+numpy = "^<1.24"
+pandas = "^1.5.3"
+pandapower = "^2.11.1"
+scipy = "^1.10.0"
+DateTime = "^5.0"
+openpyxl = "^3.0.10"
+XlsxWriter = "^3.0.7"
+numba = "^0.56.4"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
