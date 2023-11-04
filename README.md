@@ -51,8 +51,7 @@ The code is structured in the following way:
     - `main.py` is the main file to run the simulation
     - `results` contains the results of the simulation
 
-The simulation can be run by executing the `main.py` file. The simulation parameters can be set in the `config.yaml` file.
-Different scenarios can be run by changing the `scenario` parameter in the `config.yaml` file.
+The simulation can be run by executing the `main.py` file.
 
 ## Running the tests
 
