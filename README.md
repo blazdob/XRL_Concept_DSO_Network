@@ -44,6 +44,7 @@ pip install -r requirements.txt
 
 ## Usage
 The code is structured in the following way:
+
 - `src` contains the source code
     - `data` contains the input data
     - `agents` contains the agent classes
@@ -57,6 +58,7 @@ The simulation can be run by executing the `main.py` file.
 
 ROOT_DIR = base directory of the project (not src/)
 
+**The data is not freely available but can be provided on request.**
 Prepare the data and the environment:
 ```
 python data_prep.py
