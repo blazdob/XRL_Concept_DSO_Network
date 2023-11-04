@@ -1,4 +1,4 @@
-# RL Concept DSO network
+# XRL Concept DSO network
 The repository contains the code for the reinforcement learning concept for the DSO network voltage control.
 
 ## Installation
